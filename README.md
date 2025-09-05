@@ -1,6 +1,6 @@
-# 🌐 HOA02: JavaScript Interactivity & Dynamic Content
+# 🌐 JavaScript Interactivity & Dynamic Content
 
-Welcome to my enhanced portfolio! This project is part of the **HOA02 assignment** for the Web Programming course, and it builds upon the static portfolio from Assignment 1 by adding **JavaScript-powered interactivity** and **responsive design**.
+Welcome to my enhanced portfolio! This project is part of the **assignment** for the Web Programming course, and it builds upon the static portfolio from Assignment 1 by adding **JavaScript-powered interactivity** and **responsive design**.
 
 ---
 
