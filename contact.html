@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/style.css"> <!-- External CSS File Connection -->
+    
+</head>
+<body>
+    <div class="main-wrapper">
+        <nav class="nav-links"> <!-- Navigation menu allows you to go to another page of the site -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="github.html">GitHub</a></li>
+            </ul>
+        </nav>
+        
+        <div style="text-align: center; margin-top: 10px;">
+            <button id="theme-toggle">Toggle Theme</button>
+        </div>
+          
+
+        <main>
+            <h1 class="contact-title">Contact Me🤙🏻📞</h1> 
+            <!-- Configure contact information in block form -->
+
+            <div class="contact-box">
+                <p><span>📸 Instagram:</span> <a href="https://www.instagram.com/_kimdoyi/" target="_blank" rel="noopener noreferrer">@_kimdoyi</a></p>
+            </div>
+
+            <div class="contact-box">
+                <p><span>📨 E-mail:</span> <a href="mailto:kimdoyi@naver.com">kimdoyi@naver.com</a></p>
+            </div>
+
+            <div class="contact-box">
+                <p><span>🐈‍ GitHub:</span> <a href="https://github.com/kimm00" target="_blank" rel="noopener noreferrer">github.com/kimm00</a></p>
+            </div>
+            <!-- HTML form that is not yet working-->
+            <form class="contact-form">
+                <h2>Send me a message 💌</h2>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </main>
+    
+        <footer>
+            <p>&copy; 2025 Doyi Kim</p>
+        </footer>
+    </div>
+    <script src="scripts/theme.js"></script>
+</body>
+</html> 

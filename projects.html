@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- Navigation menu for all pages -->
+        <nav class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="github.html">GitHub</a></li>
+            </ul>
+        </nav>
+
+        <div style="text-align: center; margin-top: 10px;">
+            <button id="theme-toggle">Toggle Theme</button>
+        </div>
+          
+
+        <main>
+            <!-- Main title for Projects page -->
+            <h1 class="projects-title">Projects</h1>
+
+            <div style="text-align: center; margin-bottom: 30px;">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="data">Data</button>
+                <button class="filter-btn" data-filter="tool">Tool</button>
+            </div>
+
+            <!-- Grid layout that contains all project cards -->
+            <div class="projects-grid">
+            <!-- Circular project card -->
+    
+                <div class="project-circle" data-category="web">
+                    <img src="images/itmbti.png" alt="IT-MBTI" class="mbti-img">
+                    <h3>IT-MBTI</h3>
+                    <a href="https://github.com/OSS-TeamProjectt/IT-MBTI" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+        
+                <div class="project-circle" data-category="data">
+                    <img src="images/bigdata.png" alt="Big Data Project" class="bigdata-img">
+                    <h3 class="project-title">Exploring How to Respond to Network Security Problems using Big Data</h3>
+                    <div class="project-links">
+                      <a href="https://www.youtube.com/watch?v=T_hnbFUwUD0" target="_blank" rel="noopener noreferrer">YouTube</a>
+                      <a href="https://docs.google.com/document/d/18wHA50Kr9L1RRLOOuKxn3IhZa3oKeVRJqKjTFTvVca0/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Report</a>
+                    </div>
+                  </div>
+        
+                <div class="project-circle" data-category="data">
+                    <img src="images/spam.png" alt="Spam Mail Project" class ="spam-img">
+                    <h3>Spam Classification</h3>
+                    <a href="https://www.canva.com/design/DAGe0P_ArRQ/tt7NFvy6loKNtowLmKAs9Q/edit" target="_blank" rel="noopener noreferrer">Canva</a>
+                </div>
+        
+                <div class="project-circle" data-category="tool">
+                    <img src="images/editor.png" alt="Drawing Editor" class ="drawing-img">
+                    <h3>Drawing Editor</h3>
+                    <div class="project-links">
+                    <a href="https://www.figma.com/design/G7EPMYv6VIiyubhSFqll7q/..." target="_blank" rel="noopener noreferrer">Figma</a>
+                    <a href="https://o365seoultech-my.sharepoint.com/:w:/g/personal/23102020_officestu_seoultech_ac_kr/..." target="_blank" rel="noopener noreferrer">User Manual</a>
+                    </div>
+                </div>
+                  
+            </div>
+        </main>
+        
+   
+        <footer>
+            <p>&copy; 2025 Doyi Kim</p>
+        </footer>
+</div>
+
+<script src="scripts/theme.js"></script>
+<script src="scripts/filter.js"></script>
+
+</body>
+</html> 
