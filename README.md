@@ -57,7 +57,7 @@ Welcome to my enhanced portfolio! This project is part of the **assignment** for
 
 ## 🚀 Deployment
 This project is live at:
-🔗 [[https://kimm00.github.io/hoa02-kimm00](https://kimm00.github.io/hoa02-kimm00)](https://kimm00.github.io/WP_Portfolio/)
+🔗 [[https://kimm00.github.io/hoa02-kimm00](https://kimm00.github.io/hoa02-kimm00)](https://kimm00.github.io/WP_Portfolio/]
 
 (Deployed using GitHub Pages)
 
